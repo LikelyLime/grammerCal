@@ -148,10 +148,10 @@ print("divideResultLv4 : \(divideResultLv4)")
 
 func mainLv4(){
     while true {
-        var oper: String = readLine()!
+        let oper: String = readLine()!
         if oper == "break" {break}
-        var firstNum: Double = Double(readLine()!)!
-        var secondNum: Double = Double(readLine()!)!
+        let firstNum: Double = Double(readLine()!)!
+        let secondNum: Double = Double(readLine()!)!
         calculatorLv4.chngOper(oper)
         print(calculatorLv4.calculate(firstNum, secondNum))
         
